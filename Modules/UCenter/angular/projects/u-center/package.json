@@ -1,0 +1,8 @@
+{
+  "name": "u-center",
+  "version": "0.0.1",
+  "dependencies": {
+    "@abp/ng.theme.shared": "^1.0.2",
+    "u-center.config": "^0.0.1"
+  }
+}
