@@ -16,6 +16,7 @@ namespace UCenter.Samples
         public async Task Method1Async()
         {
 
+            await Task.CompletedTask;
         }
     }
 }

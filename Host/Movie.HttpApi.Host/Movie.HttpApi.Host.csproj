@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Movie.HttpApi\Movie.HttpApi.csproj" />
-    <ProjectReference Include="..\..\src\Movie.Application\Movie.Application.csproj" />
-    <ProjectReference Include="..\..\src\Movie.EntityFrameworkCore\Movie.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\Modules\Movie\src\Movie.HttpApi\Movie.HttpApi.csproj" />
+    <ProjectReference Include="..\..\Modules\Movie\src\Movie.Application\Movie.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\Movie\src\Movie.EntityFrameworkCore\Movie.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Movie.Host.Shared\Movie.Host.Shared.csproj" />
   </ItemGroup>
 

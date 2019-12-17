@@ -16,6 +16,7 @@ namespace Movie.Samples
         public async Task Method1Async()
         {
 
+            await Task.CompletedTask;
         }
     }
 }

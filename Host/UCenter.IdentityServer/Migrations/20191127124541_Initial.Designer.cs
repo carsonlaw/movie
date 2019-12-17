@@ -10,7 +10,7 @@ using UCenter.EntityFrameworkCore;
 namespace UCenter.Migrations
 {
     [DbContext(typeof(IdentityServerHostMigrationsDbContext))]
-    [Migration("20191018080944_Initial")]
+    [Migration("20191127124541_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -1367,8 +1367,7 @@ namespace UCenter.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Name")
-                        .IsUnique();
+                    b.HasIndex("Name");
 
                     b.ToTable("AbpTenants");
                 });

@@ -1365,8 +1365,7 @@ namespace UCenter.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Name")
-                        .IsUnique();
+                    b.HasIndex("Name");
 
                     b.ToTable("AbpTenants");
                 });

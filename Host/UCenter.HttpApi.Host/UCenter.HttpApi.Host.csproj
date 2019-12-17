@@ -3,9 +3,10 @@
   <Import Project="..\..\common.props" />
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>UCenter</RootNamespace>
     <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>MyCompanyName-UCenter-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,20 +14,20 @@
     <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="3.0.0" />
-    <PackageReference Include="Volo.Abp.Autofac" Version="1.0.2" />
-    <PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" Version="1.0.2" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="1.0.2" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="1.0.2" />
-    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="1.0.2" />
-    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="1.1.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="1.1.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\UCenter.HttpApi\UCenter.HttpApi.csproj" />
-    <ProjectReference Include="..\..\src\UCenter.Application\UCenter.Application.csproj" />
-    <ProjectReference Include="..\..\src\UCenter.EntityFrameworkCore\UCenter.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\Modules\UCenter\src\UCenter.HttpApi\UCenter.HttpApi.csproj" />
+    <ProjectReference Include="..\..\Modules\UCenter\src\UCenter.Application\UCenter.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\UCenter\src\UCenter.EntityFrameworkCore\UCenter.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\UCenter.Host.Shared\UCenter.Host.Shared.csproj" />
   </ItemGroup>
 

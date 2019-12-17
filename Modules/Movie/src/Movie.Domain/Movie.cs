@@ -18,7 +18,9 @@ namespace Movie
         public string Year { get; set; }
         public string Month { get; set; }
         public string Day { get; set; }
+#nullable enable
         public Person? Director { get; set; }
+#nullable disable
         public IEnumerable<Person> Actors { get; set; }
         public Country PropertyCountry { get; set; }
         public Year PropertyYear { get; set; }
