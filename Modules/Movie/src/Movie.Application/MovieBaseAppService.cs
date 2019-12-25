@@ -3,9 +3,9 @@ using Volo.Abp.Application.Services;
 
 namespace Movie
 {
-    public abstract class MovieAppService : ApplicationService
+    public abstract class MovieBaseAppService : ApplicationService
     {
-        protected MovieAppService()
+        protected MovieBaseAppService()
         {
             LocalizationResource = typeof(MovieResource);
         }

@@ -126,13 +126,13 @@ namespace UCenter
                 options.IsEnabled = MultiTenancyConsts.IsEnabled;
             });
 
-            context.Services.AddStackExchangeRedisCache(options =>
-            {
-                options.Configuration = configuration["Redis:Configuration"];
-            });
-
             if (!hostingEnvironment.IsDevelopment())
             {
+                context.Services.AddStackExchangeRedisCache(options =>
+                {
+                    options.Configuration = configuration["Redis:Configuration"];
+                });
+
                 var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
                 context.Services
                     .AddDataProtection()

@@ -16,7 +16,7 @@ namespace Movie
         {
             Configure<AbpAutoMapperOptions>(options =>
             {
-                options.AddMaps<MovieApplicationModule>(validate: true);
+                options.AddMaps<MovieApplicationModule>(validate: false);
             });
         }
     }

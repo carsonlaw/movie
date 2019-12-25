@@ -1,4 +1,5 @@
-﻿using Volo.Abp.Data;
+﻿using MongoDB.Driver;
+using Volo.Abp.Data;
 using Volo.Abp.MongoDB;
 
 namespace Movie.MongoDB
@@ -9,5 +10,8 @@ namespace Movie.MongoDB
         /* Define mongo collections here. Example:
          * IMongoCollection<Question> Questions { get; }
          */
+        IMongoCollection<Category> Categorys { get; }
+        IMongoCollection<Movie> Movies { get; }
+        IMongoCollection<Person> Persons { get; }
     }
 }

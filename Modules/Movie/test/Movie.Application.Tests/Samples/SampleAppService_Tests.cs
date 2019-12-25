@@ -6,11 +6,11 @@ namespace Movie.Samples
 {
     public class SampleAppService_Tests : MovieApplicationTestBase
     {
-        private readonly ISampleAppService _sampleAppService;
+        private readonly IMovieAppService _sampleAppService;
 
         public SampleAppService_Tests()
         {
-            _sampleAppService = GetRequiredService<ISampleAppService>();
+            _sampleAppService = GetRequiredService<IMovieAppService>();
         }
 
         [Fact]

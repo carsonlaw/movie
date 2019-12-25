@@ -11,12 +11,12 @@ namespace Movie
 {
     public class ClientDemoService : ITransientDependency
     {
-        private readonly ISampleAppService _sampleAppService;
+        private readonly IMovieAppService _sampleAppService;
         private readonly IIdentityModelAuthenticationService _authenticationService;
         private readonly IConfiguration _configuration;
 
         public ClientDemoService(
-            ISampleAppService sampleAppService, 
+            IMovieAppService sampleAppService, 
             IIdentityModelAuthenticationService authenticationService, 
             IConfiguration configuration)
         {

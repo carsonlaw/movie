@@ -25,19 +25,21 @@ using Volo.Abp.MultiTenancy;
 using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.VirtualFileSystem;
+using Movie.MongoDB;
 
 namespace Movie
 {
     [DependsOn(
         typeof(MovieApplicationModule),
-        typeof(MovieEntityFrameworkCoreModule),
+        //typeof(MovieEntityFrameworkCoreModule),
+        typeof(MovieMongoDbModule),
         typeof(MovieHttpApiModule),
         typeof(AbpAspNetCoreMvcUiMultiTenancyModule),
-        typeof(AbpAutofacModule),
-        typeof(AbpEntityFrameworkCoreSqlServerModule),
-        typeof(AbpAuditLoggingEntityFrameworkCoreModule),
-        typeof(AbpPermissionManagementEntityFrameworkCoreModule),
-        typeof(AbpSettingManagementEntityFrameworkCoreModule)
+        typeof(AbpAutofacModule)
+        //typeof(AbpEntityFrameworkCoreSqlServerModule),
+        //typeof(AbpAuditLoggingEntityFrameworkCoreModule),
+        //typeof(AbpPermissionManagementEntityFrameworkCoreModule),
+        // typeof(AbpSettingManagementEntityFrameworkCoreModule)
         )]
     public class MovieHttpApiHostModule : AbpModule
     {
@@ -48,10 +50,10 @@ namespace Movie
             var hostingEnvironment = context.Services.GetHostingEnvironment();
             var configuration = context.Services.GetConfiguration();
 
-            Configure<AbpDbContextOptions>(options =>
-            {
-                options.UseSqlServer();
-            });
+            //Configure<AbpDbContextOptions>(options =>
+            //{
+            //    options.UseSqlServer();
+            //});
 
             Configure<AbpMultiTenancyOptions>(options =>
             {
@@ -62,10 +64,10 @@ namespace Movie
             {
                 Configure<AbpVirtualFileSystemOptions>(options =>
                 {
-                    options.FileSets.ReplaceEmbeddedByPhysical<MovieDomainSharedModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}src{0}Movie.Domain.Shared", Path.DirectorySeparatorChar)));
-                    options.FileSets.ReplaceEmbeddedByPhysical<MovieDomainModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}src{0}Movie.Domain", Path.DirectorySeparatorChar)));
-                    options.FileSets.ReplaceEmbeddedByPhysical<MovieApplicationContractsModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}src{0}Movie.Application.Contracts", Path.DirectorySeparatorChar)));
-                    options.FileSets.ReplaceEmbeddedByPhysical<MovieApplicationModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}src{0}Movie.Application", Path.DirectorySeparatorChar)));
+                    options.FileSets.ReplaceEmbeddedByPhysical<MovieDomainSharedModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}Modules{0}Movie{0}src{0}Movie.Domain.Shared", Path.DirectorySeparatorChar)));
+                    options.FileSets.ReplaceEmbeddedByPhysical<MovieDomainModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}Modules{0}Movie{0}src{0}Movie.Domain", Path.DirectorySeparatorChar)));
+                    options.FileSets.ReplaceEmbeddedByPhysical<MovieApplicationContractsModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}Modules{0}Movie{0}src{0}Movie.Application.Contracts", Path.DirectorySeparatorChar)));
+                    options.FileSets.ReplaceEmbeddedByPhysical<MovieApplicationModule>(Path.Combine(hostingEnvironment.ContentRootPath, string.Format("..{0}..{0}Modules{0}Movie{0}src{0}Movie.Application", Path.DirectorySeparatorChar)));
                 });
             }
 
