@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Movie.Movies;
 using Movie.Categorys;
+using Movie.Collections;
 
 namespace Movie
 {
@@ -16,6 +17,11 @@ namespace Movie
 
             CreateMap<Category, CategoryDto>();
             CreateMap<CategoryDto, Category>();
+
+            CreateMap<Collection, CollectionDto>();
+            CreateMap<CollectionDto, Collection>(); 
+            CreateMap<CollectionCategory, CollectionCategoryDto>();
+            CreateMap<CollectionCategoryDto, CollectionCategory>();
 
         }
     }

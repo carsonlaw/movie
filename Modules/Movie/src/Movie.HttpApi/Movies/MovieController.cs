@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Mvc;
 using Volo.Abp;
 using Volo.Abp.Application.Dtos;
 
-namespace Movie.Samples
+namespace Movie.Movies
 {
     [RemoteService]
     [Route("api/v1/Movie")]
-    public class SampleController : MovieController,IMovieAppService
+    public class MovieController : Movie.MovieController,IMovieAppService
     {
         private readonly IMovieAppService _sampleAppService;
 
-        public SampleController(IMovieAppService sampleAppService)
+        public MovieController(IMovieAppService sampleAppService)
         {
             _sampleAppService = sampleAppService;
         }

@@ -1,4 +1,5 @@
 ﻿using MongoDB.Driver;
+using Movie.Collections;
 using Volo.Abp.Data;
 using Volo.Abp.MongoDB;
 
@@ -13,5 +14,8 @@ namespace Movie.MongoDB
         IMongoCollection<Category> Categorys { get; }
         IMongoCollection<Movie> Movies { get; }
         IMongoCollection<Person> Persons { get; }
+
+
+        IMongoCollection<Collection> Collections { get; }
     }
 }

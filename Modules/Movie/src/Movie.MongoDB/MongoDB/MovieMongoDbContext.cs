@@ -1,4 +1,5 @@
 ﻿using MongoDB.Driver;
+using Movie.Collections;
 using Volo.Abp.Data;
 using Volo.Abp.MongoDB;
 
@@ -15,6 +16,7 @@ namespace Movie.MongoDB
         public IMongoCollection<Movie> Movies => Collection<Movie>();
 
         public IMongoCollection<Person> Persons => Collection<Person>();
+        public IMongoCollection<Collection> Collections { get; }
 
 
         protected override void CreateModel(IMongoModelBuilder modelBuilder)
