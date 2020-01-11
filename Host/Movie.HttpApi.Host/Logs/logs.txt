@@ -1,92 +1,88 @@
-2020-01-02 16:33:09.440 +08:00 [INF] Starting web host.
-2020-01-02 16:33:20.007 +08:00 [INF] User profile is available. Using 'C:\Users\solo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2020-01-02 16:33:20.277 +08:00 [INF] Loaded ABP modules:
-2020-01-02 16:33:20.277 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2020-01-02 16:33:20.277 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2020-01-02 16:33:20.277 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
-2020-01-02 16:33:20.277 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Movie.MovieDomainSharedModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Movie.MovieDomainModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Movie.MovieApplicationContractsModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Movie.MovieApplicationModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Movie.MongoDB.MovieMongoDbModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
-2020-01-02 16:33:20.278 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Movie.MovieHttpApiModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
-2020-01-02 16:33:20.279 +08:00 [INF] - Movie.MovieHttpApiHostModule
-2020-01-02 16:33:21.993 +08:00 [INF] Initialized all ABP modules.
-2020-01-02 16:33:22.074 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2020-01-02 16:33:22.074 +08:00 [INF] Hosting environment: Development
-2020-01-02 16:33:22.074 +08:00 [INF] Content root path: E:\solo\git\Movie\Host\Movie.HttpApi.Host
-2020-01-02 16:33:22.225 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
-2020-01-02 16:33:22.356 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2020-01-02 16:33:22.534 +08:00 [INF] Executing endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
-2020-01-02 16:33:22.674 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Movie.Controllers.HomeController (Movie.HttpApi.Host).
-2020-01-02 16:33:22.947 +08:00 [INF] Executing action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) - Validation state: "Valid"
-2020-01-02 16:33:22.961 +08:00 [INF] Executed action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.8056ms.
-2020-01-02 16:33:22.993 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
-2020-01-02 16:33:23.010 +08:00 [INF] Executed action Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) in 320.8031ms
-2020-01-02 16:33:23.011 +08:00 [INF] Executed endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
-2020-01-02 16:33:23.070 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
-2020-01-02 16:33:23.098 +08:00 [INF] Request finished in 877.6769ms 302 
-2020-01-02 16:33:23.127 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2020-01-02 16:33:23.435 +08:00 [INF] Request finished in 364.1392ms 200 text/html;charset=utf-8
-2020-01-02 16:33:23.915 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
-2020-01-02 16:33:23.921 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2020-01-02 16:33:24.404 +08:00 [INF] Request finished in 492.4809ms 200 application/json;charset=utf-8
-2020-01-02 16:34:07.643 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Category/list application/json-patch+json 50
-2020-01-02 16:34:07.680 +08:00 [INF] CORS policy execution failed.
-2020-01-02 16:34:07.680 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
-2020-01-02 16:34:07.681 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2020-01-02 16:34:07.706 +08:00 [INF] Executing endpoint 'Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi)'
-2020-01-02 16:34:07.735 +08:00 [INF] Route matched with {action = "GetList", controller = "Category", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Categorys.CategoryDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Categorys.CategoryController (Movie.HttpApi).
-2020-01-02 16:34:07.836 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
-2020-01-02 16:34:07.844 +08:00 [ERR] {
+2020-01-11 16:54:27.605 +08:00 [INF] Starting web host.
+2020-01-11 16:54:45.814 +08:00 [INF] User profile is available. Using 'C:\Users\solo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-01-11 16:54:46.072 +08:00 [INF] Loaded ABP modules:
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-01-11 16:54:46.073 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Movie.MovieDomainSharedModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Movie.MovieDomainModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Movie.MovieApplicationContractsModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Movie.MovieApplicationModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Movie.MongoDB.MovieMongoDbModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-01-11 16:54:46.074 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Movie.MovieHttpApiModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-01-11 16:54:46.075 +08:00 [INF] - Movie.MovieHttpApiHostModule
+2020-01-11 16:54:48.779 +08:00 [INF] Initialized all ABP modules.
+2020-01-11 16:54:48.855 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-11 16:54:48.856 +08:00 [INF] Hosting environment: Development
+2020-01-11 16:54:48.856 +08:00 [INF] Content root path: E:\solo\git\Movie\Host\Movie.HttpApi.Host
+2020-01-11 16:54:49.146 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Collection/list application/json-patch+json 50
+2020-01-11 16:54:49.146 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
+2020-01-11 16:54:49.283 +08:00 [INF] CORS policy execution failed.
+2020-01-11 16:54:49.286 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-01-11 16:54:49.329 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 16:54:49.329 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 16:54:49.789 +08:00 [INF] Executing endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 16:54:49.816 +08:00 [INF] Executing endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 16:54:49.968 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Movie.Controllers.HomeController (Movie.HttpApi.Host).
+2020-01-11 16:54:49.991 +08:00 [INF] Route matched with {action = "GetList", controller = "Collection", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Collections.CollectionDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Collections.CollectionController (Movie.HttpApi).
+2020-01-11 16:54:50.284 +08:00 [INF] Executing action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) - Validation state: "Valid"
+2020-01-11 16:54:50.300 +08:00 [INF] Executed action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6221ms.
+2020-01-11 16:54:50.340 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-01-11 16:54:50.377 +08:00 [INF] Executed action Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) in 372.2428ms
+2020-01-11 16:54:50.378 +08:00 [INF] Executed endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 16:54:50.466 +08:00 [INF] Request finished in 1321.1571ms 302 
+2020-01-11 16:54:50.494 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-01-11 16:54:50.534 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 16:54:50.622 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+2020-01-11 16:54:50.644 +08:00 [ERR] {
   "code": null,
-  "message": "An internal error occurred during your request!",
+  "message": "对不起,在处理你的请求期间,产生了一个服务器内部错误!",
   "details": null,
   "validationErrors": null
 }
-2020-01-02 16:34:07.845 +08:00 [ERR] An exception was thrown while activating Movie.Categorys.CategoryController -> Movie.Categorys.CategoryAppService.
-Autofac.Core.DependencyResolutionException: An exception was thrown while activating Movie.Categorys.CategoryController -> Movie.Categorys.CategoryAppService.
- ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Movie.Categorys.CategoryAppService' can be invoked with the available services and parameters:
-Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[Movie.Category,System.Guid] repository' of constructor 'Void .ctor(Volo.Abp.Domain.Repositories.IRepository`2[Movie.Category,System.Guid])'.
+2020-01-11 16:54:50.645 +08:00 [ERR] An exception was thrown while activating Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Movie.Collections.CollectionAppService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[Movie.Collections.Collection,System.Guid] repository' of constructor 'Void .ctor(Volo.Abp.Domain.Repositories.IRepository`2[Movie.Collections.Collection,System.Guid], Movie.Collections.ICollectionBaseAppService)'.
    at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
    at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
    at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
@@ -109,9 +105,418 @@ Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[Movie.Categ
    at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
 --- End of stack trace from previous location where exception was thrown ---
    at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
-2020-01-02 16:34:07.895 +08:00 [ERR] ---------- Exception Data ----------
-2020-01-02 16:34:07.895 +08:00 [ERR] ActivatorChain = Movie.Categorys.CategoryController -> Movie.Categorys.CategoryAppService
-2020-01-02 16:34:07.902 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
-2020-01-02 16:34:07.922 +08:00 [INF] Executed action Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi) in 184.5864ms
-2020-01-02 16:34:07.922 +08:00 [INF] Executed endpoint 'Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi)'
-2020-01-02 16:34:07.931 +08:00 [INF] Request finished in 306.8217ms 500 application/json; charset=utf-8
+2020-01-11 16:54:50.721 +08:00 [ERR] ---------- Exception Data ----------
+2020-01-11 16:54:50.722 +08:00 [ERR] ActivatorChain = Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService
+2020-01-11 16:54:50.727 +08:00 [INF] Request finished in 232.4941ms 200 text/html;charset=utf-8
+2020-01-11 16:54:50.736 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-01-11 16:54:50.894 +08:00 [INF] Executed action Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) in 903.0564ms
+2020-01-11 16:54:50.895 +08:00 [INF] Executed endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 16:54:50.907 +08:00 [INF] Request finished in 1766.8982ms 500 application/json; charset=utf-8
+2020-01-11 16:54:51.482 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-01-11 16:54:51.486 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 16:54:52.039 +08:00 [INF] Request finished in 557.1979ms 200 application/json;charset=utf-8
+2020-01-11 16:55:51.058 +08:00 [INF] Starting web host.
+2020-01-11 17:32:43.510 +08:00 [INF] User profile is available. Using 'C:\Users\solo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-01-11 17:32:43.749 +08:00 [INF] Loaded ABP modules:
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-01-11 17:32:43.749 +08:00 [INF] - Movie.MovieDomainSharedModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Movie.MovieDomainModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Movie.MovieApplicationContractsModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Movie.MovieApplicationModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Movie.MongoDB.MovieMongoDbModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-01-11 17:32:43.750 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Movie.MovieHttpApiModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-01-11 17:32:43.751 +08:00 [INF] - Movie.MovieHttpApiHostModule
+2020-01-11 17:32:46.063 +08:00 [INF] Initialized all ABP modules.
+2020-01-11 17:32:46.163 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-11 17:32:46.163 +08:00 [INF] Hosting environment: Development
+2020-01-11 17:32:46.163 +08:00 [INF] Content root path: E:\solo\git\Movie\Host\Movie.HttpApi.Host
+2020-01-11 17:32:46.354 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Collection/list application/json-patch+json 50
+2020-01-11 17:32:46.354 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
+2020-01-11 17:32:46.471 +08:00 [INF] CORS policy execution failed.
+2020-01-11 17:32:46.472 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-01-11 17:32:46.520 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 17:32:46.520 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 17:32:46.746 +08:00 [INF] Executing endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 17:32:46.775 +08:00 [INF] Executing endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 17:32:46.925 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Movie.Controllers.HomeController (Movie.HttpApi.Host).
+2020-01-11 17:32:46.943 +08:00 [INF] Route matched with {action = "GetList", controller = "Collection", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Collections.CollectionDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Collections.CollectionController (Movie.HttpApi).
+2020-01-11 17:32:47.145 +08:00 [INF] Executing action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) - Validation state: "Valid"
+2020-01-11 17:32:47.157 +08:00 [INF] Executed action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6716ms.
+2020-01-11 17:32:47.211 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-01-11 17:32:47.235 +08:00 [INF] Executed action Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) in 287.0953ms
+2020-01-11 17:32:47.238 +08:00 [INF] Executed endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 17:32:47.289 +08:00 [INF] Request finished in 940.7385ms 302 
+2020-01-11 17:32:47.360 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-01-11 17:32:47.430 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 17:32:47.577 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+2020-01-11 17:32:47.595 +08:00 [ERR] {
+  "code": null,
+  "message": "对不起,在处理你的请求期间,产生了一个服务器内部错误!",
+  "details": null,
+  "validationErrors": null
+}
+2020-01-11 17:32:47.597 +08:00 [ERR] An exception was thrown while activating Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Movie.Collections.CollectionAppService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[Movie.Collections.Collection,System.Guid] repository' of constructor 'Void .ctor(Volo.Abp.Domain.Repositories.IRepository`2[Movie.Collections.Collection,System.Guid], Movie.Collections.ICollectionBaseAppService)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-01-11 17:32:47.653 +08:00 [INF] Request finished in 293.5956ms 200 text/html;charset=utf-8
+2020-01-11 17:32:47.721 +08:00 [ERR] ---------- Exception Data ----------
+2020-01-11 17:32:47.728 +08:00 [ERR] ActivatorChain = Movie.Collections.CollectionController -> Movie.Collections.CollectionAppService
+2020-01-11 17:32:47.756 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-01-11 17:32:47.806 +08:00 [INF] Executed action Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) in 862.7036ms
+2020-01-11 17:32:47.806 +08:00 [INF] Executed endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 17:32:47.824 +08:00 [INF] Request finished in 1476.7509ms 500 application/json; charset=utf-8
+2020-01-11 17:32:48.358 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-01-11 17:32:48.362 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 17:32:48.745 +08:00 [INF] Request finished in 388.2354ms 200 application/json;charset=utf-8
+2020-01-11 18:02:51.743 +08:00 [INF] Starting web host.
+2020-01-11 18:03:04.889 +08:00 [INF] User profile is available. Using 'C:\Users\solo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-01-11 18:03:05.108 +08:00 [INF] Loaded ABP modules:
+2020-01-11 18:03:05.108 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-01-11 18:03:05.108 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-01-11 18:03:05.108 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Movie.MovieDomainSharedModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Movie.MovieDomainModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-01-11 18:03:05.109 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Movie.MovieApplicationContractsModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Movie.MovieApplicationModule
+2020-01-11 18:03:05.110 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Movie.MongoDB.MovieMongoDbModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-01-11 18:03:05.111 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Movie.MovieHttpApiModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-01-11 18:03:05.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2020-01-11 18:03:05.113 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-01-11 18:03:05.113 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-01-11 18:03:05.113 +08:00 [INF] - Movie.MovieHttpApiHostModule
+2020-01-11 18:03:07.581 +08:00 [INF] Initialized all ABP modules.
+2020-01-11 18:03:07.669 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-11 18:03:07.670 +08:00 [INF] Hosting environment: Development
+2020-01-11 18:03:07.671 +08:00 [INF] Content root path: E:\solo\git\Movie\Host\Movie.HttpApi.Host
+2020-01-11 18:03:07.926 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
+2020-01-11 18:03:08.172 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:08.496 +08:00 [INF] Executing endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 18:03:08.695 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Movie.Controllers.HomeController (Movie.HttpApi.Host).
+2020-01-11 18:03:08.965 +08:00 [INF] Executing action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) - Validation state: "Valid"
+2020-01-11 18:03:08.978 +08:00 [INF] Executed action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.633ms.
+2020-01-11 18:03:09.010 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-01-11 18:03:09.023 +08:00 [INF] Executed action Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) in 315.4561ms
+2020-01-11 18:03:09.025 +08:00 [INF] Executed endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 18:03:09.103 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger  
+2020-01-11 18:03:09.123 +08:00 [INF] Request finished in 1185.9222ms 302 
+2020-01-11 18:03:09.129 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:09.143 +08:00 [INF] Request finished in 40.0412ms 301 
+2020-01-11 18:03:09.157 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-01-11 18:03:09.194 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:09.540 +08:00 [INF] Request finished in 382.3573ms 200 text/html;charset=utf-8
+2020-01-11 18:03:09.652 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui.css  
+2020-01-11 18:03:09.653 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-bundle.js  
+2020-01-11 18:03:09.653 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-standalone-preset.js  
+2020-01-11 18:03:09.654 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:09.654 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:09.654 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:09.793 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-01-11 18:03:09.806 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-01-11 18:03:09.817 +08:00 [INF] Request finished in 164.6554ms 200 application/javascript
+2020-01-11 18:03:09.819 +08:00 [INF] Request finished in 166.0396ms 200 text/css
+2020-01-11 18:03:09.821 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-01-11 18:03:09.823 +08:00 [INF] Request finished in 170.4275ms 200 application/javascript
+2020-01-11 18:03:10.657 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-01-11 18:03:10.667 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:11.150 +08:00 [INF] Request finished in 494.145ms 200 application/json;charset=utf-8
+2020-01-11 18:03:16.098 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Category/list application/json-patch+json 50
+2020-01-11 18:03:16.112 +08:00 [INF] CORS policy execution failed.
+2020-01-11 18:03:16.112 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-01-11 18:03:16.114 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:16.129 +08:00 [INF] Executing endpoint 'Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:03:16.168 +08:00 [INF] Route matched with {action = "GetList", controller = "Category", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Categorys.CategoryDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Categorys.CategoryController (Movie.HttpApi).
+2020-01-11 18:03:16.665 +08:00 [INF] Executing action method Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi) - Validation state: "Valid"
+2020-01-11 18:03:18.389 +08:00 [INF] Executed action method Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1723.7656ms.
+2020-01-11 18:03:18.406 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Movie.Categorys.CategoryDto, Movie.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-01-11 18:03:18.429 +08:00 [INF] Executed action Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi) in 2260.23ms
+2020-01-11 18:03:18.429 +08:00 [INF] Executed endpoint 'Movie.Categorys.CategoryController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:03:18.440 +08:00 [INF] AUDIT LOG: [200: POST   ] /api/v1/Category/list
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 2303
+- Actions:
+  - Movie.Categorys.CategoryAppService.GetListAsync (1620 ms.)
+    {"input":{"sorting":"id","skipCount":0,"maxResultCount":10}}
+
+2020-01-11 18:03:18.446 +08:00 [INF] Request finished in 2348.6192ms 200 application/json; charset=utf-8
+2020-01-11 18:03:25.566 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Collection/list application/json-patch+json 50
+2020-01-11 18:03:25.572 +08:00 [INF] CORS policy execution failed.
+2020-01-11 18:03:25.572 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-01-11 18:03:25.574 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:03:25.576 +08:00 [INF] Executing endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:03:25.584 +08:00 [INF] Route matched with {action = "GetList", controller = "Collection", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Collections.CollectionDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Collections.CollectionController (Movie.HttpApi).
+2020-01-11 18:03:25.844 +08:00 [INF] Executing action method Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) - Validation state: "Valid"
+2020-01-11 18:03:32.153 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+2020-01-11 18:03:32.158 +08:00 [ERR] {
+  "code": null,
+  "message": "对不起,在处理你的请求期间,产生了一个服务器内部错误!",
+  "details": null,
+  "validationErrors": null
+}
+2020-01-11 18:03:32.159 +08:00 [ERR] The method or operation is not implemented.
+System.NotImplementedException: The method or operation is not implemented.
+   at Movie.MongoDB.MongoCollectionRepository.GetQueryable() in E:\solo\git\Movie\Modules\Movie\src\Movie.MongoDB\MongoDB\Repositorys\MongoCollectionRepository.cs:line 43
+   at Volo.Abp.Domain.Repositories.RepositoryBase`1.get_Provider()
+   at Castle.Proxies.Invocations.IQueryable_get_Provider.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.ProceedInfo.Invoke()
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.Proceed()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.Intercept(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.InterceptSyncMethod(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IBasicRepository`1Proxy_1.get_Provider()
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Volo.Abp.Linq.DefaultAsyncQueryableExecuter.CountAsync[T](IQueryable`1 queryable)
+   at Volo.Abp.Application.Services.CrudAppService`7.GetListAsync(TGetListInput input)
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-01-11 18:03:32.262 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-01-11 18:03:32.268 +08:00 [INF] Executed action Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) in 6683.6676ms
+2020-01-11 18:03:32.268 +08:00 [INF] Executed endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:03:32.272 +08:00 [INF] AUDIT LOG: [501: POST   ] /api/v1/Collection/list
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 6693
+- Actions:
+  - Movie.Collections.CollectionAppService.GetListAsync (6241 ms.)
+    {"input":{"sorting":"id","skipCount":0,"maxResultCount":20}}
+- Exceptions:
+  - The method or operation is not implemented.
+    System.NotImplementedException: The method or operation is not implemented.
+   at Movie.MongoDB.MongoCollectionRepository.GetQueryable() in E:\solo\git\Movie\Modules\Movie\src\Movie.MongoDB\MongoDB\Repositorys\MongoCollectionRepository.cs:line 43
+   at Volo.Abp.Domain.Repositories.RepositoryBase`1.get_Provider()
+   at Castle.Proxies.Invocations.IQueryable_get_Provider.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.ProceedInfo.Invoke()
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.Proceed()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.Intercept(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.InterceptSyncMethod(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IBasicRepository`1Proxy_1.get_Provider()
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Volo.Abp.Linq.DefaultAsyncQueryableExecuter.CountAsync[T](IQueryable`1 queryable)
+   at Volo.Abp.Application.Services.CrudAppService`7.GetListAsync(TGetListInput input)
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2020-01-11 18:03:32.274 +08:00 [INF] Request finished in 6708.2347ms 501 application/json; charset=utf-8
+2020-01-11 18:13:52.235 +08:00 [INF] Starting web host.
+2020-01-11 18:14:02.166 +08:00 [INF] User profile is available. Using 'C:\Users\solo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-01-11 18:14:02.337 +08:00 [INF] Loaded ABP modules:
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Movie.MovieDomainSharedModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Movie.MovieDomainModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-01-11 18:14:02.337 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Movie.MovieApplicationContractsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Movie.MovieApplicationModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Movie.MongoDB.MovieMongoDbModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-01-11 18:14:02.338 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Movie.MovieHttpApiModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-01-11 18:14:02.339 +08:00 [INF] - Movie.MovieHttpApiHostModule
+2020-01-11 18:14:03.996 +08:00 [INF] Initialized all ABP modules.
+2020-01-11 18:14:04.067 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-11 18:14:04.067 +08:00 [INF] Hosting environment: Development
+2020-01-11 18:14:04.067 +08:00 [INF] Content root path: E:\solo\git\Movie\Host\Movie.HttpApi.Host
+2020-01-11 18:14:04.220 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
+2020-01-11 18:14:04.427 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:14:04.670 +08:00 [INF] Executing endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 18:14:04.882 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Movie.Controllers.HomeController (Movie.HttpApi.Host).
+2020-01-11 18:14:05.153 +08:00 [INF] Executing action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) - Validation state: "Valid"
+2020-01-11 18:14:05.165 +08:00 [INF] Executed action method Movie.Controllers.HomeController.Index (Movie.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6788ms.
+2020-01-11 18:14:05.200 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-01-11 18:14:05.211 +08:00 [INF] Executed action Movie.Controllers.HomeController.Index (Movie.HttpApi.Host) in 318.6267ms
+2020-01-11 18:14:05.212 +08:00 [INF] Executed endpoint 'Movie.Controllers.HomeController.Index (Movie.HttpApi.Host)'
+2020-01-11 18:14:05.278 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-01-11 18:14:05.297 +08:00 [INF] Request finished in 1082.7084ms 302 
+2020-01-11 18:14:05.336 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:14:05.655 +08:00 [INF] Request finished in 376.6905ms 200 text/html;charset=utf-8
+2020-01-11 18:14:06.396 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-01-11 18:14:06.399 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:14:06.798 +08:00 [INF] Request finished in 402.8078ms 200 application/json;charset=utf-8
+2020-01-11 18:20:59.479 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/v1/Collection/list application/json-patch+json 50
+2020-01-11 18:20:59.516 +08:00 [INF] CORS policy execution failed.
+2020-01-11 18:20:59.516 +08:00 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-01-11 18:20:59.518 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-01-11 18:20:59.535 +08:00 [INF] Executing endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:20:59.563 +08:00 [INF] Route matched with {action = "GetList", controller = "Collection", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[Movie.Collections.CollectionDto]] GetListAsync(Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto) on controller Movie.Collections.CollectionController (Movie.HttpApi).
+2020-01-11 18:21:00.108 +08:00 [INF] Executing action method Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) - Validation state: "Valid"
+2020-01-11 18:21:01.840 +08:00 [INF] Executed action method Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1731.5402ms.
+2020-01-11 18:21:01.863 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Movie.Collections.CollectionDto, Movie.Application.Contracts, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-01-11 18:21:01.888 +08:00 [INF] Executed action Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi) in 2324.8902ms
+2020-01-11 18:21:01.889 +08:00 [INF] Executed endpoint 'Movie.Collections.CollectionController.GetListAsync (Movie.HttpApi)'
+2020-01-11 18:21:01.902 +08:00 [INF] AUDIT LOG: [200: POST   ] /api/v1/Collection/list
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 2357
+- Actions:
+  - Movie.Collections.CollectionAppService.GetListAsync (1645 ms.)
+    {"input":{"sorting":"id","skipCount":0,"maxResultCount":20}}
+
+2020-01-11 18:21:01.909 +08:00 [INF] Request finished in 2450.916ms 200 application/json; charset=utf-8

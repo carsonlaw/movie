@@ -9,7 +9,7 @@ using Volo.Abp.MongoDB;
 
 namespace Movie.MongoDB.Repositorys
 {
-    public class MongoCategroyRepository : MongoDbRepository<MovieMongoDbContext, Category>
+    public class MongoCategroyRepository : MongoDbRepository<MovieMongoDbContext, Category,Guid>
     {
         
         public MongoCategroyRepository(IMongoDbContextProvider<MovieMongoDbContext> dbContextProvider) : base(dbContextProvider)

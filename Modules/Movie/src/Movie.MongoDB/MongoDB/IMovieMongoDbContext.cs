@@ -14,8 +14,6 @@ namespace Movie.MongoDB
         IMongoCollection<Category> Categorys { get; }
         IMongoCollection<Movie> Movies { get; }
         IMongoCollection<Person> Persons { get; }
-
-
         IMongoCollection<Collection> Collections { get; }
     }
 }

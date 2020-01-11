@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Movie.Collections;
+using Movie.Movies;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -38,13 +39,6 @@ namespace Movie.Collections
             return _AppService.GetAsync(id);
         }
         [HttpPost]
-        [Route("categorys")]
-        public Task<IEnumerable<CollectionCategoryDto>> GetCategorys(Guid id)
-        {
-            return _AppService.GetCategorys(id);
-        }
-
-        [HttpPost]
         [Route("list")]
         public Task<PagedResultDto<CollectionDto>> GetListAsync(PagedAndSortedResultRequestDto input)
         {
@@ -55,6 +49,25 @@ namespace Movie.Collections
         public Task<CollectionDto> UpdateAsync(Guid id, CollectionDto input)
         {
             return _AppService.UpdateAsync(id,input);
+        }
+        [HttpPost]
+        [Route("categorys")]
+        public Task<IEnumerable<CollectionCategoryDto>> GetCategorys(Guid id)
+        {
+            return _AppService.GetCategorys(id);
+        }
+
+        [HttpPost]
+        [Route("movielist")]
+        public Task<PagedResultDto<MovieDto>> GetCollectionMovieList(CollectionJobArgsDto arg)
+        {
+            return _AppService.GetCollectionMovieList(arg);
+        }
+        [HttpPost]
+        [Route("movies")]
+        public Task<PagedResultDto<MovieDto>> GetCollectionMovieDetail(CollectionJobArgsDto arg)
+        {
+            return _AppService.GetCollectionMovieDetail(arg);
         }
     }
 }

@@ -9,6 +9,7 @@ namespace Movie
         typeof(MovieApplicationContractsModule),
         typeof(AbpDddApplicationModule),
         typeof(AbpAutoMapperModule)
+        //typeof(AbpBackgroundJobsDomainModule)
         )]
     public class MovieApplicationModule : AbpModule
     {

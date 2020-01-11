@@ -4,8 +4,7 @@ using Volo.Abp.BackgroundJobs;
 namespace Movie
 {
     [DependsOn(
-        typeof(MovieDomainSharedModule),
-        typeof(AbpBackgroundJobsDomainModule)
+        typeof(MovieDomainSharedModule)
         )]
     public class MovieDomainModule : AbpModule
     {

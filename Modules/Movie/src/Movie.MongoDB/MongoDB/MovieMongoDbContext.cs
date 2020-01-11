@@ -16,7 +16,7 @@ namespace Movie.MongoDB
         public IMongoCollection<Movie> Movies => Collection<Movie>();
 
         public IMongoCollection<Person> Persons => Collection<Person>();
-        public IMongoCollection<Collection> Collections { get; }
+        public IMongoCollection<Collection> Collections => Collection<Collection>();
 
 
         protected override void CreateModel(IMongoModelBuilder modelBuilder)

@@ -1,55 +1,58 @@
 ﻿using Movie.Categorys;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using Movie.Movies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
+using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
 using Volo.Abp.Domain.Repositories;
 
 namespace Movie.Collections
 {
+    /// <summary>
+    /// 采集中心配置服务
+    /// </summary>
     public class CollectionAppService : CrudAppService<Collection, CollectionDto, Guid>, ICollectionAppService
     {
-        public CollectionAppService(IRepository<Collection, Guid> repository) : base(repository)
+        ICollectionBaseAppService _collService;
+        public CollectionAppService(IRepository<Collection, Guid> repository,ICollectionBaseAppService collService) : base(repository)
         {
+            _collService = collService;
         }
 
+        /// <summary>
+        /// 获取当前采集中心已配置分类及远程分类情况
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
         public async Task<IEnumerable<CollectionCategoryDto>> GetCategorys(Guid Id)
         {
-            var collection = await base.GetAsync(Id);
-            var cCategroys = await collectionCategroy(collection.BaseUrl);
+            var collection = await Repository.GetAsync(Id);
+            var cCategroys = await _collService.collectionCategroy(collection.BaseUrl);
 
-            cCategroys = from c in cCategroys
+            var ret = from c in cCategroys
                          join o in collection.CollectionCategorys on c.CategoryCode equals o.CategoryCode into o
                          from cate in o.DefaultIfEmpty()
                          select new CollectionCategoryDto()
                          {
-                             Category = cate?.Category,
+                             Category = cate==null?null: ObjectMapper.Map<Category,CategoryDto>(cate?.Category),
                              CategoryCode = c.CategoryCode,
                              CategoryName = c.CategoryName
                          };
-            return cCategroys;
-
-        }
-
-        private async Task<IEnumerable<CollectionCategoryDto>> collectionCategroy(string baseUrl)
-        {
-            HttpClient client = new HttpClient();
-            var html = await client.GetAsync(baseUrl);
-            JObject j = JsonConvert.DeserializeObject<JObject>(await html.Content.ReadAsStringAsync());
-            var cates = j.GetValue("class");
-            if (!cates.HasValues)
-                return null;
-            var ret = cates.Select(f => new CollectionCategoryDto
-            {
-                 CategoryCode = f.Value<string>("type_id"),
-                 CategoryName = f.Value<string>("type_name")
-            });
             return ret;
+
         }
+
+        public async Task<PagedResultDto<MovieDto>> GetCollectionMovieList(CollectionJobArgsDto arg)
+        {
+            return await _collService.CollectionMovieList(arg);
+        }
+
+        public async Task<PagedResultDto<MovieDto>> GetCollectionMovieDetail(CollectionJobArgsDto arg)
+        {
+            return await _collService.CollectionMovieDetail(arg);
+        }
+
     }
 }
