@@ -12,7 +12,7 @@ namespace Movie.EntityFrameworkCore
             var configuration = BuildConfiguration();
 
             var builder = new DbContextOptionsBuilder<MyProjectHttpApiHostMigrationsDbContext>()
-                .UseSqlServer(configuration.GetConnectionString("Default"));
+                .UseSqlServer(configuration.GetConnectionString("Movie"));
 
             return new MyProjectHttpApiHostMigrationsDbContext(builder.Options);
         }

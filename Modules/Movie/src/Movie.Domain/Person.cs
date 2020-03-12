@@ -13,7 +13,7 @@ namespace Movie
         public string Sex { get; set; }
         public int Age { get; set; }
         public string Description { get; set; }
-        public Country Country { get; set; }
+        public Country? Country { get; set; }
         public bool IsActor { get; set; }
         public bool IsDirector { get; set; }
 

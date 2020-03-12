@@ -15,16 +15,20 @@ namespace Movie.MongoDB
 {
     public class MongoCollectionRepository : MongoDbRepository<MovieMongoDbContext, Collection, Guid>
     {
-        public MongoCollectionRepository(IMongoDbContextProvider<MovieMongoDbContext> dbContextProvider) : base(dbContextProvider)
+        IMongoDbContextProvider<MovieMongoDbContext> _dbContextProvider;
+        IMongoDbRepository<Category,Guid> _categoryRepository;
+        public MongoCollectionRepository(IMongoDbContextProvider<MovieMongoDbContext> dbContextProvider, IMongoDbRepository<Category, Guid> CategoryRepository) : base(dbContextProvider)
         {
-            
+            _categoryRepository = CategoryRepository;
         }
-        public override Task<List<Collection>> GetListAsync(bool includeDetails = false, CancellationToken cancellationToken = default)
+       
+        protected override IQueryable<Collection> GetQueryable()
         {
-            var ret = base.GetListAsync(includeDetails, cancellationToken);
-            return ret;
-        }
 
+            return base.GetQueryable();
+                   
+        }
+        
         public override IQueryable<Collection> WithDetails()
         {
             return base.WithDetails();

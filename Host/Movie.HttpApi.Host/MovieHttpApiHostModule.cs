@@ -31,15 +31,16 @@ namespace Movie
 {
     [DependsOn(
         typeof(MovieApplicationModule),
-        //typeof(MovieEntityFrameworkCoreModule),
-        typeof(MovieMongoDbModule),
         typeof(MovieHttpApiModule),
         typeof(AbpAspNetCoreMvcUiMultiTenancyModule),
-        typeof(AbpAutofacModule)
-        //typeof(AbpEntityFrameworkCoreSqlServerModule),
+        typeof(AbpAutofacModule),
+        //typeof(MovieMongoDbModule),
+        typeof(MovieEntityFrameworkCoreModule),
+        typeof(AbpEntityFrameworkCoreSqlServerModule)
+        //typeof(AbpEntityFrameworkCoreMySqlModule),
         //typeof(AbpAuditLoggingEntityFrameworkCoreModule),
         //typeof(AbpPermissionManagementEntityFrameworkCoreModule),
-        // typeof(AbpSettingManagementEntityFrameworkCoreModule)
+        //typeof(AbpSettingManagementEntityFrameworkCoreModule)
         )]
     public class MovieHttpApiHostModule : AbpModule
     {
@@ -50,10 +51,10 @@ namespace Movie
             var hostingEnvironment = context.Services.GetHostingEnvironment();
             var configuration = context.Services.GetConfiguration();
 
-            //Configure<AbpDbContextOptions>(options =>
-            //{
-            //    options.UseSqlServer();
-            //});
+            Configure<AbpDbContextOptions>(options =>
+            {
+                options.UseSqlServer();
+            });
 
             Configure<AbpMultiTenancyOptions>(options =>
             {

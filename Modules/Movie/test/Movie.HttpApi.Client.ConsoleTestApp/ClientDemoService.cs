@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using IdentityModel.Client;
 using Microsoft.Extensions.Configuration;
-using Movie.Samples;
+using Movie.Movies;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.IdentityModel;
 
@@ -27,7 +27,6 @@ namespace Movie
 
         public async Task RunAsync()
         {
-            await TestWithDynamicProxiesAsync();
             await TestWithHttpClientAndIdentityModelAuthenticationServiceAsync();
             await TestAllManuallyAsync();
         }
@@ -36,17 +35,7 @@ namespace Movie
          * feature. It is just simple as calling a local service method.
          * Authorization and HTTP request details are handled by the ABP framework.
          */
-        private async Task TestWithDynamicProxiesAsync()
-        {
-            Console.WriteLine();
-            Console.WriteLine($"***** {nameof(TestWithDynamicProxiesAsync)} *****");
-
-            var result = await _sampleAppService.GetAsync();
-            Console.WriteLine("Result: " + result.Value);
-
-            result = await _sampleAppService.GetAuthorizedAsync();
-            Console.WriteLine("Result (authorized): " + result.Value);
-        }
+       
 
         /* Shows how to use HttpClient to perform a request to the HTTP API.
          * It uses ABP's IIdentityModelAuthenticationService to simplify obtaining access tokens.

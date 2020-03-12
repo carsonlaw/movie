@@ -6,7 +6,7 @@ using Volo.Abp.Domain.Entities.Auditing;
 
 namespace Movie
 {
-    public class Category : AuditedAggregateRoot<Guid>
+    public class Category : AuditedEntity<Guid>
     {
         public string Name { get; set; }
         public string Code { get; set; }
